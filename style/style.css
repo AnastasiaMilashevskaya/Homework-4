@@ -1,0 +1,719 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 0;
+}
+
+.wrap {
+    width: 1400px;
+    min-height: 4505px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+/*Navigation......................................................................*/
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: black;
+}
+
+.nav__title {
+    padding-top: 20px;
+    padding-left: 110px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.nav__decor {
+    font-size: 30px;
+    color: #EC7979;
+    text-transform: uppercase;
+}
+
+.nav__list {
+    display: inline-block;
+    margin-left: 625px;
+    vertical-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-top: -66px;
+    margin-right: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+}
+
+.nav__item :hover {
+    background-color: #EC7979;
+}
+
+
+/*Header..........................................................................*/
+
+.header {
+    background: url(../background/header-background.png) no-repeat center/cover;
+}
+
+.description {
+    width: 84.3%;
+    height: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.description__h2 {
+    width: 155px;
+    height: 70px;
+    padding-top: 108px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.description__decor {
+    font-size: 60px;
+    color: #EC7979;
+    text-transform: uppercase;
+}
+
+.description__title {
+    width: 570px;
+    height: 99px;
+    padding-top: 32px;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.description__line {
+    width: 64px;
+    color: #FFFFFF;
+}
+
+.description__subtitle {
+    width: 282px;
+    height: 38px;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.header__button {
+    padding: 11px 25px 11px 25px;
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+}
+
+.form {
+    position: absolute;
+    top: 180px;
+    display: inline-block;
+    width: 370px;
+    margin-left: 809px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.form__title {
+    width: 370px;
+    padding: 15px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+input {
+    width: 370px;
+    height: 50px;
+    margin: 0 auto 2px;
+    padding-top: 19px;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #ccc9c9;
+}
+
+.form__decor {
+    font-size: 20px;
+    color: #EC7979;
+}
+
+.form--button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #EC7979;
+    cursor: pointer;
+}
+
+
+/*Social..........................................................................*/
+
+.social {
+    text-align: left;
+    background-color: #F8EFEF;
+}
+
+.social-information {
+    display: inline-block;
+    width: 365px;
+    margin: 14px 129px 17px 111px;
+    vertical-align: middle;
+}
+
+.social-icons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-icons-background {
+    background: url(../img/social__icons.png) no-repeat center;
+}
+
+.social-item {
+    display: inline-block;
+    width: 97px;
+    height: 50px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.social-link {
+    margin-left: 25px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, .0);
+}
+
+
+/*features content..................................................................*/
+
+.features {
+    padding: 126px 117px 125px 111px;
+    text-align: left;
+}
+
+.features__tab {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tab-box {
+    width: 112px;
+    height: 55px;
+    margin-right: 118px;
+    margin-bottom: 10px;
+    padding-top: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 4px;
+}
+
+.tab-box:hover {
+    background-color: #EC7979;
+}
+
+.features-information {
+    width: 572px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.information-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.information-text {
+    padding-top: 58px;
+    padding-bottom: 14px;
+}
+
+.town-image {
+    width: 320px;
+    height: 253px;
+    display: inline-block;
+    margin-left: 40px;
+    background: url(../img/city.png) no-repeat center;
+}
+
+.pink-button {
+    width: 135px;
+    height: 42px;
+    margin-top: 95px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    background-image: none;
+    background: transparent;
+    background-color: #EC7979;
+    border: 1px solid #EC7979;
+    border-radius: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+.pink-button:hover {
+    background-color: #d66363
+}
+
+
+/*About..............................................................................*/
+
+.about-information {
+    width: 1400px;
+    height: 158px;
+    padding: 100px 0 36px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.red-line {
+    width: 64px;
+    margin: 25px auto 34px;
+    border: 1px solid #E72424;
+}
+
+.desc {
+    margin-top: 30px;
+    padding-bottom: 36px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+}
+
+.about-box {
+    padding: 31px 0 109px;
+}
+
+.about-card {
+    width: 350px;
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.subtitle-about {
+    margin: 30px 0 16px;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    mix-blend-mode: normal;
+}
+
+.circle-lamp {
+    background: url(../img/lamp.png) no-repeat center;
+}
+
+.circle-keyboard {
+    background: url(../img/keyboard.png) no-repeat center;
+}
+
+.circle-lightning {
+    background: url(../img/lightning.png) no-repeat center;
+}
+
+
+/*input==================================================================================================================*/
+
+input {
+    width: 252px;
+    display: block;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.link-style:link {
+    color: #86878B;
+    text-decoration: none;
+}
+
+.link-style:visited {
+    color: #86878B;
+    text-decoration: none;
+}
+
+.link-top:link {
+    text-decoration: none;
+}
+
+.link-top:visited {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*Price.............................................................................*/
+
+.price-information {
+    width: 1400px;
+    height: 131px;
+    padding: 100px 0 47px;
+}
+
+.price-title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.price-line {
+    width: 64px;
+    margin: 25px auto 34px;
+    border: 1px solid #E72424;
+}
+
+.price-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+}
+
+.price-box {
+    height: 589px;
+}
+
+.price-list {
+    width: 340px;
+    display: inline-block;
+    margin: 0 40px;
+    background-color: #333333;
+}
+
+.price-list__title {
+    height: 50px;
+    padding-top: 25px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #dad7d7;
+}
+
+.price-list__cost {
+    height: 100px;
+    padding-top: 50px;
+    font-size: 35px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #dad7d7;
+}
+
+.price-list__subtatle {
+    height: 50px;
+    padding-top: 25px;
+    font-size: 14px;
+    color: #FFFFFF80;
+}
+
+.price-list__information {
+    width: 340px;
+    height: 260px;
+    background-color: #FFFFFF;
+    list-style-type: none;
+}
+
+.price-list__item {
+    margin-bottom: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.position {
+    position: relative;
+    top: 15px;
+}
+
+
+/*Reviews...........................................................................*/
+
+.reviews-box {
+    width: 1174px;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+.reviews__heading {
+    height: 131px;
+    padding: 100px 0 47px;
+}
+
+.reviews__heading__title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+.reviews__heading__line {
+    width: 64px;
+    margin: 25px auto 34px;
+    border: 1px solid #E72424;
+}
+
+.reviews__heading__subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878B;
+}
+
+.reviews__content {
+    width: 298px;
+    height: 205px;
+    display: inline-block;
+    margin: 0 30px;
+    background-color: #FFFFFF;
+}
+
+.reviews__quote {
+    min-height: 80px;
+    padding: 10px 15px;
+    font-size: 14px;
+    text-align: center;
+    color: #86878B;
+    background-color: #E2E2E2;
+    border-radius: 5px;
+}
+
+.reviews__author {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+
+.reviews__information {
+    position: relative;
+    top: -95px;
+    left: 180px;
+    width: 97px;
+    height: 50px;
+}
+
+.reviews__name {
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.reviews__job {
+    font-size: 14px;
+    color: #86878B;
+}
+
+
+/*Design............................................................................*/
+
+.design-information {
+    width: 1400px;
+    height: 180px;
+    padding: 100px 0 47px;
+    background-image: url(../background/design-background.png);
+}
+
+.design__title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.design__line {
+    width: 64px;
+    margin: 25px auto 34px;
+    border: 1px solid #FFFFFF;
+}
+
+.design__subtitle {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.design__button {
+    margin-top: 27px;
+    padding: 11px 25px 11px 25px;
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+}
+
+.heading {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.heading__title {
+    margin-bottom: 34px;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.heading__line {
+    width: 64px;
+    height: 1px;
+    margin: 0 auto 34px;
+    background: #E72424;
+    border: none;
+}
+
+.heading__subtitle {
+    font-size: 14px;
+    color: #86878B;
+}
+
+.contact__content {
+    padding: 95px 0px 44px;
+}
+
+.contact-form__user {
+    display: inline-block;
+}
+
+.user__label {
+    font-size: 14px;
+    text-align: left;
+    color: #BDBDBD;
+}
+
+.user__field {
+    display: block;
+    width: 478px;
+    margin: 33px 0 31.81px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+}
+
+.contact-form__text-area {
+    width: 478px;
+    height: 271px;
+    margin-left: 225px;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    resize: none;
+}
+
+.contact-form__text-area::placeholder {
+    color: #BDBDBD;
+}
+
+.user__field:focus,
+.contact-form__text-area:focus {
+    border-bottom: 1px solid #000000;
+}
+
+.contact-form__submit {
+    width: 166px;
+    height: 42px;
+    margin: 37px 589px 0px;
+    padding-top: 2px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.contact-form__submit:focus {
+    border: 1px solid #000000;
+}
+
+
+/* Footer .........................................................................*/
+
+.footer {
+    padding: 30px 0px 15px;
+    text-align: center;
+    background: #000000;
+}
+
+.small-icons {
+    width: 317px;
+    height: 23px;
+    margin: 0 auto 18px;
+    word-spacing: 11px;
+    background: url(../img/small__icons.png) no-repeat;
+    background-size: contain;
+}
+
+.small-icons__link {
+    display: inline-block;
+    width: 35.5px;
+    height: 23px;
+}
+
+.copy {
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
